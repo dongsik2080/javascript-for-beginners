@@ -1,0 +1,36 @@
+body,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: square;
+}
+.hidden {
+    display: none;
+  }
+
+#todo-list button{
+    background-color:transparent;
+    border: none;
+}
+
+#todo-form input{
+    border: none;
+}
+
+#backgroundimg{
+    width: 100vw;
+}
+
+#clock,#dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+  }
+
+  #login-form,#greeting {
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+  }
